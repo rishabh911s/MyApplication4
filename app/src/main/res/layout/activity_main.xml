@@ -7,12 +7,22 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Happy Birthday"
+        android:textSize="40dp"
+        tools:text="HAPPY BIRTHDAY"
+
+        />
+
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
         android:layout_height="423dp"
         android:src="@drawable/abc"
         android:layout_gravity="center"
-        android:layout_marginTop="250dp"/>
+        android:layout_marginTop="25dp"/>
 
 </LinearLayout>
